@@ -20,7 +20,7 @@ class SettingItemDetailViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         if let validMessage = message {
-            textLabel.text = "Voce esta na tela  \(validMessage)"
+            textLabel.text = "Voce esta na tela  \(validMessage).... "
         } else {
             textLabel.text = "nenhuma menssagem recebida!!!"
         }
